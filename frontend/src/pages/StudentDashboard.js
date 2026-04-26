@@ -29,7 +29,7 @@ function StudentDashboard() {
       return;
     }
     fetchDashboardData();
-  }, [user]);
+  }, [navigate]);
 
   const fetchDashboardData = async () => {
     const token = localStorage.getItem('token');
