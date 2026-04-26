@@ -1,8 +1,5 @@
 {
-  "build": {
-    "env": {
-      "NPM_FLAGS": "--legacy-peer-deps",
-      "NODE_VERSION": "18"
-    }
-  }
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install --force"
 }
